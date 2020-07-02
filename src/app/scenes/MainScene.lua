@@ -7,7 +7,7 @@ function MainScene:ctor()
 		:addTo(self)
 		:center()
 
-	display.newTTFLabel({text = "Hello, World", size = 64})
+	display.newTTFLabel({text = "Hello, World", size = 64, color = display.COLOR_RED})
 		:align(display.CENTER, display.cx, display.cy)
 		:addTo(self)
 end
